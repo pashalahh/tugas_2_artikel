@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 2 artikelku</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            background-color: #fafafa;
+            color: #333;
+            text-align: center; 
+            padding: 20px;
+        }
+
+        header, main, footer {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #0059ff;
+            font-weight: bold;
+        }
+
+        article p {
+            text-align: justify; /* agar paragraf tetap rapi */
+            margin-bottom: 15px;
+        }
+
+        article ul {
+        text-align: left; 
+        margin: 10px auto;
+        list-style-position: inside;
+        }
+
+        figure {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        footer {
+            margin-top: 30px;
+            border-top: 2px solid #ddd;
+            padding-top: 15px;
+        }
+
+        footer nav a {
+            margin: 0 10px;
+            color: #0059ff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>RRQ HOSHI MOBILE LEGENDS</h1>
+        <nav>
+            <a href="#beranda">Beranda</a>
+            <a href="#galeri">Galeri</a>
+            <a href="#penulis">Profil Penulis</a>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h2>RRQ HOSHI SI RAJA TANPA MAHKOTA</h2>
+            <figure>
+                <img
+                    src="img/rrq_hoshi.jpg"
+                    srcset="img/rrq_hoshi_600.jpg 600w, img/rrq_hoshi.jpg 1200w"
+                    sizes="(max-width: 600px) 100vw, 800px"
+                    alt="Gambar Logo RRQ Hoshi"
+                    loading="eager"
+                />
+                <figcaption>Logo RRQ Hoshi</figcaption>
+            </figure>
+            <p>
+                <b>RRQ Hoshi </b> adalah salah satu tim esports paling legendaris dalam 
+                sejarah Mobile Legends: Bang Bang (MLBB) di Indonesia dan Asia Tenggara. 
+                Bernaung di bawah organisasi Rex Regum Qeon (RRQ), tim ini dikenal dengan 
+                julukan <b>“Sang Raja”</b> berkat dominasi dan performa impresif mereka 
+                di berbagai turnamen nasional hingga internasional.
+            </p>
+
+            <h2>Sejarah Singkat RRQ Hoshi</h2>
+            <figure>
+                <img 
+                    src="img/rrq_m4.jpg" 
+                    alt="Gambar Tim RRQ Hoshi M4" 
+                    loading="lazy" 
+                />
+                <figcaption>RRQ Hoshi M4 World Championship 2023</figcaption>
+            </figure>
+            <p>
+                RRQ Hoshi didirikan pada <b>tahun 2017</b> dan dengan cepat menjadi kekuatan 
+                yang harus diperhitungkan di kancah kompetitif MLBB. Tim ini meraih 
+                berbagai <b>gelar juara</b> di turnamen besar seperti MPL Indonesia, MSC, dan 
+                M1 World Championship. Keberhasilan mereka tidak lepas dari strategi 
+                permainan yang matang, kerja sama tim yang solid, serta kemampuan individu 
+                para pemainnya yang luar biasa.
+                <br />
+                <br />
+                RRQ Hoshi mulai mencuri perhatian sejak era awal MPL Indonesia (Mobile Legends Professional League), 
+                dan menjadi tim besar sejak <b>MPL ID Season 4</b>, ketika mereka berhasil meraih gelar juara pertamanya.
+                Sejak saat itu, RRQ Hoshi dikenal sebagai <b>tim langganan Grand Final</b>, dengan deretan pemain bintang 
+                dan rivalitas panas dengan tim-tim besar seperti EVOS Legends, ONIC Esports, dan Bigetron Alpha.
+            </p>
+
+            <h2>Prestasi Terbaik RRQ Hoshi</h2>
+            <figure>
+                <img 
+                    src="img/rrq_s6.jpg" 
+                    alt="Gambar RRQ Hoshi MPL ID Season 6" 
+                    loading="lazy" 
+                />
+                <figcaption> RRQ Hoshi MPL ID Season 6</figcaption>
+            </figure>
+            <p> <b>Beberapa pencapaian besar RRQ Hoshi sepanjang sejarah : </b></p>
+            <ul>
+                <li>🏆 Juara MPL ID Season 5, 6, dan 9</li>
+                <li>🌏 Juara MSC 2019</li>
+                <li>🥈 Runner-up M1 World Championship 2019</li>
+                <li>🥉 Juara ketiga M2 World Championship 2021</li>
+                <li>🥉 Juara ketiga M4 World Championship 2023</li>
+                <li>🎯 Grand Finalis di lebih dari 5 musim MPL Indonesia</li>
+            </ul>
+        </article>
+
+        <aside>
+            <h2 id="galeri">Galeri</h2>
+            <section id="galeri">
+                <figure>
+                    <img 
+                        src="img/rrq_s5.jpg" 
+                        alt="Gambar Tim RRQ Hoshi MPL S5" 
+                        loading="lazy" 
+                    />
+                    <figcaption>Tim RRQ Hoshi MPL ID Season 5</figcaption>
+                </figure>
+
+                <figure>
+                    <img 
+                        src="img/rrq_s6.jpg" 
+                        alt="Gambar Tim RRQ Hoshi MPL S6" 
+                        loading="lazy" 
+                    />
+                    <figcaption>Tim RRQ Hoshi MPL ID Season 6</figcaption>
+                </figure>
+
+                <figure>
+                    <img 
+                        src="img/rrq_s7.png" 
+                        alt="Gambar Tim RRQ Hoshi MPL S7" 
+                        loading="lazy" 
+                    />
+                    <figcaption>Tim RRQ Hoshi MPL ID Season 7</figcaption>
+                </figure>
+
+                <figure>
+                    <img 
+                        src="img/rrq_s8.jpg" 
+                        alt="Gambar Tim RRQ Hoshi MPL S8" 
+                        loading="lazy" 
+                    />
+                    <figcaption>Tim RRQ Hoshi MPL ID Season 8</figcaption>
+                </figure>
+
+                <figure>
+                    <img 
+                        src="img/rrq_s9.jpg" 
+                        alt="Gambar Tim RRQ Hoshi MPL S9" 
+                        loading="lazy" 
+                    />
+                    <figcaption>Tim RRQ Hoshi MPL ID Season 9</figcaption>
+                </figure>
+
+                <figure>
+                    <img 
+                        src="img/rrq_s10.jpg" 
+                        alt="Gambar Tim RRQ Hoshi MPL S10" 
+                        loading="lazy" 
+                    />
+                    <figcaption>Tim RRQ Hoshi MPL ID Season 10</figcaption>
+                </figure>
+            </section>
+
+            <h2 id="penulis">Profil Penulis</h2>
+            <br>
+            <div class="profil-penulis">
+                <img 
+                    src="img/gambar1.jpg" 
+                    alt="Foto Penulis" 
+                    class="foto-penulis" 
+                    loading="lazy" 
+                    width="150"
+                />
+                <p>Nama     : Ramdani Ardhin Pasha</p>
+                <p>Profesi  : Mahasiswa </p>
+                <p>Asal     : Kabupaten Tegal, Jawa Tengah</p>
+                <p>Email    :  <a href="mailto: ramdinpasha@gmail.com">ramdinpasha@gmail.com</a></p>
+            </div>
+            <br>
+            <p>
+                Saya adalah seorang mahasiswa yang suka mencoba berbagai hal baru,
+                terutama dalam bidang teknologi dan game. Saya seorang pemula dalam
+                dunia teknologi yang sedang belajar dan mengeksplorasi berbagai aspek di dalamnya. 
+                Saya suka akan berbagai teknologi mulai dari hardware, maupun tampilan dari suatu software. 
+                Selain itu, saya suka bermain game
+                Mobile Legends dan mengikuti perkembangan dunia esports di Indonesia.
+                Salah satu tim favorit saya adalah RRQ Hoshi, karena mereka memiliki
+                sejarah yang panjang dan prestasi yang mengesakan. Itulah alasan saya
+                tertarik untuk menulis artikel tentang tim ini. Bissmilah masuk RRQ. Hehe (◡‿◡)
+
+            </p>
+        </aside>
+    </main>
+
+    <footer>
+      <p>
+        <time datetime="2025-10-05">2025</time> &copy; Ramdani Ardhin Pasha 
+      </p>
+
+      <nav>
+        <a href="#beranda">Beranda </a>
+        <a href="#galeri">Galeri </a>
+        <a href="#penulis">Profil Penulis</a>
+      </nav>
+    </footer>
+</body>
+</html>
